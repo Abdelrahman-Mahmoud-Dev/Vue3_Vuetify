@@ -1,0 +1,27 @@
+{
+  "name": "test-project",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:unit": "vitest"
+  },
+  "dependencies": {
+    "vite-plugin-vuetify": "^1.0.2",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.2",
+    "vuetify": "^3.3.3",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@mdi/font": "^7.2.96",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/test-utils": "^2.3.2",
+    "jsdom": "^22.1.0",
+    "sass": "^1.63.3",
+    "vite": "^4.3.9",
+    "vitest": "^0.32.0"
+  }
+}
